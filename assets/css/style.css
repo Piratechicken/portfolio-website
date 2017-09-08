@@ -382,6 +382,9 @@ footer {
     text-align: center;
     font-size: 30px;
   }
+  .logo-container {
+    max-width: 500px;
+  }
   .logo-container img {
     width: 90px;
     height: auto;

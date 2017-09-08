@@ -6,6 +6,8 @@ The page is inspired by old books. The design is inspired by Penguin classics an
 Minimalist, nearly all horizontal 100% wide sections, few borders.
 
 ### COLOURS
+The colour scheme is from a page of 'The Tragical Death of an Apple Pye' pictured on the [blog of Angela Voulangas](http://parenthetically.blogspot.com.au/2012/03/real-gashlycrumb-tinies.html)
+
  - Background 'paper' yellow-y: #F2E4BD
  - Background alt light teal: #BACDA8
  - Text 'print' dark grey: #4B4B4B (may be darkened slightly for contrast against some colors)

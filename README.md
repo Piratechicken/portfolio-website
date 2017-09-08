@@ -6,7 +6,9 @@ The page is inspired by old books. The design is inspired by Penguin classics an
 Minimalist, nearly all horizontal 100% wide sections, few borders.
 
 ### COLOURS
-The colour scheme is from a page of 'The Tragical Death of an Apple Pye' pictured on the [blog of Angela Voulangas](http://parenthetically.blogspot.com.au/2012/03/real-gashlycrumb-tinies.html)
+The colour scheme is from a page of 'The Tragical Death of an Apple Pye' pictured on the [blog of Angela Voulangas](http://parenthetically.blogspot.com.au/2012/03/real-gashlycrumb-tinies.html).
+
+![A page from The Tragical Death of an Apple Pye](http://1.bp.blogspot.com/-5hzM91_tqfA/T2ZCOZUSDNI/AAAAAAAAFNI/-FtBJ0h9VQ0/s400/apple+pie.jpg "The Tragical Death of an Apple Pye")
 
  - Background 'paper' yellow-y: #F2E4BD
  - Background alt light teal: #BACDA8
@@ -16,10 +18,13 @@ The colour scheme is from a page of 'The Tragical Death of an Apple Pye' picture
  - Highlight yellow: #ECBE69
 
 ### FONTS
-With the bookish theme, it was tempting to go heavy on the serif fonts, however these conflicted with the very clean layout. Instead I paired two full sans serif fonts. The wide loops in these fonts combined with the use of capitals, semi-bold and h=generous spacing meant that these two fonts retained the bookish feel while keeping clean and simple.
+With the bookish theme, it was tempting to go heavy on the serif fonts, however these conflicted with the very clean layout. Instead I paired two full sans serif fonts. The wide loops in these fonts combined with the use of capitals, semi-bold and generous spacing meant that these two fonts retained the bookish feel while keeping clean and simple.
 
  - Headings: Montserrat semi-bold (weight 600), usually capital
  - General text: Raleway regular
+
+![Montserrat and Raleway fonts](https://fonts.png "Montserrat and Raleway fonts")
+ 
 
 ### IMAGES
 Like a book or a Penguin Classic cover, images are kept to a minimum and those that are present are mostly logos. Monochrome logos that match the dark grey text colour are preferred. IN the absense of images, the spacious page layout and alternating background colours serve to break up the text.

@@ -1,17 +1,18 @@
-# portfolio-website
+# Portfolio website
 
+## Inspiration
+ - [Pinterest board](https://au.pinterest.com/simbidion/personal-website/)
+ - [Mood board in Canva](https://www.canva.com/design/DACgIJ0GS2s/reiIITRifkfcv8QXNensaA/view?utm_content=DACgIJ0GS2s&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
+ - [Figma design process](https://www.figma.com/file/C6U1oXIcS1UXXMGMxRXcGhVN/Personal-website)
+
+---
 ## STYLE GUIDE
-
-I like simplicity, and clarity
-timelessness
-The page is inspired by old books. 
-
-## LAYOUT
+### Layout
 The layout is based on the cover design of Penguin Classics. Like the Penguin covers, the site layout is minimalist and spacious. Sections are horizontal and cover 100% of the page width. There are no borders, but instead sections are demarcated by a change in the background colour.
 
 ![A Penguin Classic cover](https://github.com/Simbidion/portfolio-website/blob/master/assets/img/classic.jpg?raw=true "A Penguin Classic book cover")
 
-### COLOURS
+### Colours
 The colour scheme is from a page of 'The Tragical Death of an Apple Pye', printed in the 1800s and pictured on the [blog of Angela Voulangas](http://parenthetically.blogspot.com.au/2012/03/real-gashlycrumb-tinies.html).
 
 ![A page from The Tragical Death of an Apple Pye](http://1.bp.blogspot.com/-5hzM91_tqfA/T2ZCOZUSDNI/AAAAAAAAFNI/-FtBJ0h9VQ0/s400/apple+pie.jpg "The Tragical Death of an Apple Pye")
@@ -25,7 +26,7 @@ The colour scheme is from a page of 'The Tragical Death of an Apple Pye', printe
 
 ![Site colour theme](https://github.com/Simbidion/portfolio-website/blob/master/assets/img/colours.png?raw=true "Site colour theme")
 
-### FONTS
+### Fonts
 With the bookish theme, it was tempting to go heavy on the serif fonts, however these conflicted with the very clean layout. Instead I paired two full sans serif fonts. The wide loops in these fonts combined with the use of capitals, semi-bold and generous spacing meant that these two fonts retained the bookish feel while keeping clean and simple. Penguin Classics also use sans serif fonts.
 
  - Headings: Montserrat semi-bold (weight 600), usually capital
@@ -33,10 +34,10 @@ With the bookish theme, it was tempting to go heavy on the serif fonts, however 
 
 ![Montserrat and Raleway fonts](https://github.com/Simbidion/portfolio-website/blob/master/assets/img/fonts.png?raw=true "Montserrat and Raleway fonts")
  
-### IMAGES
+### Images
 Like a book or a Penguin Classic cover, images are kept to a minimum and those that are present are mostly logos. Monochrome logos that match the dark grey text colour are preferred. IN the absense of images, the spacious page layout and alternating background colours serve to break up the text.
 
-### VIEWS
+### Views
 Pages should always load with the main header and the intro fitted to the screen.
 
 On small screens (where width is generally less than height and therefore more book-shaped) 50% of the page is the big-header and 50% the intro text. On scrolling down the page, the main header is covered by the body and a smaller right justified header appears. This is not strictly necessary as people aren't likely to forget what page they're on, but it is reminiscent of where author might appear in the header of a printed page. It also means my name is always visible.

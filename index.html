@@ -7,30 +7,97 @@
   <title>Simon Dwyer</title>
   <!-- Style sheets -->
   <link rel="stylesheet" href="/assets/css/normalize.css">
-	<link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/form.css">
   <!-- Google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600|Raleway:400,400i,700" rel="stylesheet">
+  <!-- Dev icons -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <!-- JS and Jquery (google cdn) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="/assets/js/script.js"></script>
 </head>
 
-<body>
+<body id="top">
 
-  <div class="small-header" id="small-head"><h2>SIMON DWYER</h2></div>
+  <div class="small-header" id="small-head"><a href="#top"><h2>SIMON DWYER</h2></a></div>
   <div class="big-header">
-    <div class="h1-container"><h1>SIMON DWYER</h1></div>
+    <div class="h1-container"><a href="#top"><h1>SIMON DWYER</h1></a>
+        <div class="nav-bar" id="bigscreen-nav">
+            <p><a href="#about">ABOUT</a></p>
+            <p><a href="#skills">SKILLS</a></p>
+            <p><a href="#contact">CONTACT</a></p>
+        </div>
+    </div>
   </div>
 
   <div class="main-container">
-    <div class="intro"><p>I am a Melbourne-based developer, who loves problem solving, parabolas and simple, perennial designs.</p></div>
+    <div class="intro"><p>Melbourne-based developer, with a passion for problem solving, parabolas and simple, perennial designs.</p>
+    </div>
 
-    <div class="item-container"></div>
-    <div class="item-container"></div>
-    <div class="item-container"></div>
-    <div class="item-container"></div>
+    <div class="links">
+        <a href="https://www.linkedin.com/in/simon-dwyer-1a890870/"><img src="/assets/img/linkedin.png" alt="Linked In logo"></a>
+        <a href="https://github.com/Simbidion"><img src="/assets/img/github.png" alt="Github logo"></a>
+        <a href="https://codepen.io/simbidion/"><img src="/assets/img/codepen.png" alt="Codepen logo"></a>
+    </div>
+
+    <div class="item-container" id="about">
+        <div class="item-inner-container">
+          <h3>ABOUT</h3>
+          <p>I'm a 2017 graduate of the Coder Academy Fast Track course.</p>
+          <p>yadda</p>
+          <p>When not coding, I am advocating for animals (including <a href="https://medium.com/@TheAnimalist/pirate-chicken-every-chicken-83889c96287b"> Pirate Chickens</a>), windsurfing, reading science fiction or hanging out with my dog, Watson.</p>
+        </div>
+    </div>
+
+    <div class="item-container" id="skills">
+      <div class="item-inner-container">
+          <h3>SKILLS</h3>
+          <div class="logo-container">
+              <a href="https://www.w3.org/TR/html5/"><img src="/assets/img/html.png" alt="HTML5 logo"></a>
+              <a href="https://www.w3.org/Style/CSS/"><img src="/assets/img/css.png" alt="CSS3 logo"></a>
+              <a href="https://facebook.github.io/react/"><img src="/assets/img/reactjs.png" alt="React JS logo"></a>
+              <a href="https://nodejs.org"><img src="/assets/img/node.png" alt="Node JS logo"></a>
+              <a href="https://www.ruby-lang.org/"><img src="/assets/img/ruby.png" alt="Ruby logo"></a>
+              <a href="http://rubyonrails.org/"><img src="/assets/img/rails.png" alt="Ruby on rails logo"></a>
+          </div>
+      </div>
+    </div>
+
+    <div class="item-container" id="contact">
+      <div class="item-inner-container">
+        <h3>CONTACT</h3>
+
+        <form action="">
+            <div>
+                <input type="text" id="name" name="user_name" placeholder="Name">
+            </div>
+            <div>
+                <input type="email" id="mail" name="user_email" placeholder="Email">
+            </div>
+            <div>
+                <input type="tel" id="phone" name="user_phone" placeholder="Phone number">
+            </div>
+            <div>
+                <input type="text" id="subject" name="user_mail" placeholder="Subject">
+            </div>
+            <div>
+                <textarea id="msg" name="user_message" placeholder="Message"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">SEND</button>
+            </div>
+        </form>
+
+      </div>
+    </div>
 
 
+  </div>
+  <div class="nav-bar" id="mobile-nav">
+    <p><a href="#about">ABOUT</a></p>
+    <p><a href="#skills">SKILLS</a></p>
+    <p><a href="#contact">CONTACT</a></p>
   </div>
   <footer></footer>
 

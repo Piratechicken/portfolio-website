@@ -268,6 +268,7 @@ h1::after {
  footer img {
    height: 50px;
    width: auto;
+   opacity: 0.9;
  }
 
 /*  =MEDIA QUERIES=  */

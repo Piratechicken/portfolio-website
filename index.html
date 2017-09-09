@@ -28,7 +28,17 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="/assets/js/script.js"></script>
 
-    <!-- Google analytics and form submission via Netlify -->
+    <!-- Icons for every freaking device ever invented. Thanks to https://realfavicongenerator.net/ -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/icons/manifest.json">
+    <link rel="mask-icon" href="/assets/img/icons/safari-pinned-tab.svg" color="#970000">
+    <link rel="shortcut icon" href="/assets/img/icons/favicon.ico">
+    <meta name="msapplication-config" content="/assets/img/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Google analytics and form submission are via Netlify -->
 
 </head>
 
@@ -39,8 +49,8 @@
     </div>
 
     <!-- Main header on opening page -->
-    <div class="big-header">
-        <div class="h1-container"><a href="#"><h1>SIMON DWYER</h1></a>
+    <div class="big-header" id="big-header">
+        <div class="h1-container" id="h1-container"><a href="#"><h1 id="h1">SIMON DWYER</h1></a>
             <!-- Top nav bar only shows on wider screens -->
             <div class="nav-bar" id="bigscreen-nav">
                 <p><a href="#about">ABOUT</a></p>
@@ -53,14 +63,14 @@
     <div class="main-container">
         <!-- Short intro sentence about me. Shows on load -->
         <div class="intro">
-            <p>Melbourne-based developer, with a passion for problem solving, parabolas and simple, perennial designs.</p>
+            <p>Melbourne-based developer with a passion for problem solving, parabolas and simple, perennial designs.</p>
         </div>
 
         <!-- Git hub etc links and logos. Shows on load in wider screens -->
         <div class="links">
             <a href="https://www.linkedin.com/in/simon-dwyer-1a890870/" target="_blank"><img src="/assets/img/linkedin.png" alt="Linked In logo"></a>
-            <a href="https://github.com/Simbidion" target="_blank"><img src="/assets/img/github.png" alt="Github logo"></a>
-            <a href="https://codepen.io/simbidion/" target="_blank"><img src="/assets/img/codepen.png" alt="Codepen logo"></a>
+            <a href="https://github.com/Simbidion" target="_blank"><img src="/assets/img/github.png" alt="Github logo" style="border-radius:50%;"></a>
+            <a href="https://codepen.io/simbidion/" target="_blank"><img src="/assets/img/codepen.png" alt="Codepen logo" style="border-radius:50%;"></a>
         </div>
 
         <!-- Detailed about section -->
@@ -116,7 +126,7 @@
 
             </div>
         </div>
-
+  <footer><img src="/assets/img/piratechicken.png" alt="Pirate Chicken logo"></footer>
     </div> <!-- End of main container -->
 
     <!-- Nav bar on mobile only -->
@@ -126,7 +136,7 @@
         <p><a href="#contact">CONTACT</a></p>
     </div>
 
-  <!-- <footer></footer> -->
+
 
 </body>
 </html>

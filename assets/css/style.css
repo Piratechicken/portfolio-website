@@ -45,7 +45,7 @@ h3 {
   font-weight: 600;
   line-height: normal;
   font-size: 24px;
-  color: #222222;
+  color: #3E3E3E;
   letter-spacing: 4px;
   text-align: right;
   padding: 16px;
@@ -295,7 +295,7 @@ h1::after {
  footer img {
    height: 55px;
    width: auto;
-   opacity: 0.85;
+   opacity: 0.88;
  }
 
  /* FORM STYLES */
@@ -523,3 +523,26 @@ h1::after {
 .trans-h1-container {
     height: 70px;
   }
+  /* BONUS PICS FOR BIG SCREENS... */
+#hip, #watson {
+  color: #2A2A2A;
+}  
+#hip:hover:after{
+  content: url("/assets/img/dhs.jpg"); 
+  display: block;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+#watson:hover:after{
+    content: url("/assets/img/watson.jpg"); 
+    display: block;
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+  }
+}

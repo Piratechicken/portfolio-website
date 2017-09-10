@@ -271,6 +271,61 @@ h1::after {
    opacity: 0.9;
  }
 
+ /* FORM STYLES */
+ 
+ form {
+   margin: 0 auto;
+   padding: 16px;
+ }
+ form div + div {
+   margin-top: 1em;
+ }
+ input, textarea {
+   padding: 10px;
+   font-family: 'Raleway', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   letter-spacing: 1px;
+   color: #4B4B4B;
+   width: 80vw;
+   max-width: 600px;
+   box-sizing: border-box;
+   border: 1px solid #999;
+   border-radius: 2px;
+ }
+
+ input:focus, textarea:focus {
+   border: 2px #528F7D solid;
+   outline: none;
+ }
+
+ textarea {
+   vertical-align: top;
+   color: #4B4B4B;
+   height: 7em;
+ }
+
+ button {
+ background: #528F7D;
+ width: 80vw;
+ max-width: 600px;
+ font-family: 'Raleway', sans-serif;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 16px;
+ letter-spacing: 2px;
+ color: #222222;
+ letter-spacing: 2px;
+ padding: 5px;
+ border-radius: 2px;
+ border: none;
+ transition: 0.2s;
+ }
+ button:hover {
+   background: #5F9F8C;
+ }
+
 /*  =MEDIA QUERIES=  */
 
 /* Removes underline for very very narrow screens that might or might not exist */

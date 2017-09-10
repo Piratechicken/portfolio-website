@@ -293,9 +293,9 @@ h1::after {
   border-top: solid 5px #ECBE69;
 }
  footer img {
-   height: 50px;
+   height: 55px;
    width: auto;
-   opacity: 0.9;
+   opacity: 0.85;
  }
 
  /* FORM STYLES */
@@ -511,7 +511,7 @@ h1::after {
    padding-bottom: 0;
  }
   footer img {
-    height: 80px;
+    height: 90px;
     width: auto;
   }
 }

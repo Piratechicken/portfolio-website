@@ -53,7 +53,7 @@ Final logo:
 
 ![Pirate Chicken logo](https://github.com/Simbidion/portfolio-website/blob/master/assets/img/pirateroundtrans.png?raw=true "Pirate Chicken logo")
 
-In keeping with the minimalist theme, the logo is only used one, in the footer.
+In keeping with the minimalist theme and to avoid "cartoonifying" the clean layout, the logo is only used once, in the footer.
 
 ### Views
 Pages should always load with the main header and the intro fitted to the screen.

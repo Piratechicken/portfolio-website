@@ -1,6 +1,5 @@
 # Simon's portfolio website
 - Live on [Netlify](https://preacher-sips-66821.netlify.com/)
-- [Presentation keynote file](https://preacher-sips-66821.netlify.com/assets/talk.key)
 
 ## Inspiration
  - [Pinterest board](https://au.pinterest.com/simbidion/personal-website/)

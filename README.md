@@ -40,6 +40,7 @@ Like a book or a Penguin Classic cover, images are kept to a minimum and those t
 
 ### Logo
 Penguin has a penguin. Conveniently, my usual avatar is also a bird - a cartoon sketch I did of our pet chicken, Pirate Chicken. This also reflects my personality (animals etc). To turn it into a logo I created paths in Photoshop and stroked them with a tapered brush. Then I gave it a black circle background.
+
 ![Pirate Chicken sketch](https://github.com/Simbidion/portfolio-website/blob/master/assets/img/piratechicken-sketch.jpg?raw=true "Pirate Chicken sketch")
 ![Pirate Chicken stroke](https://github.com/Simbidion/portfolio-website/blob/master/assets/img/piratechicken-stroke.png?raw=true "Pirate Chicken stroke")
 ![Pirate Chicken logo](https://github.com/Simbidion/portfolio-website/blob/master/assets/img/pirateroundtrans.png?raw=true "Pirate Chicken logo")

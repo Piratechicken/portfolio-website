@@ -7,7 +7,7 @@
  - [Figma design process](https://www.figma.com/file/C6U1oXIcS1UXXMGMxRXcGhVN/Personal-website)
 
 ---
-## STYLE GUIDE
+## STYLE DEVELOPMENT AND GUIDE
 ### Layout
 The layout is based on the cover design of Penguin Classics. Like the Penguin covers, the site layout is minimalist and spacious. Sections are horizontal and cover 100% of the page width. There are no borders, but instead sections are demarcated by a change in the background colour.
 
@@ -37,6 +37,14 @@ With the bookish theme, it was tempting to go heavy on the serif fonts, however 
  
 ### Images
 Like a book or a Penguin Classic cover, images are kept to a minimum and those that are present are mostly logos. Monochrome logos that match the dark grey text colour are preferred. IN the absense of images, the spacious page layout and alternating background colours serve to break up the text.
+
+### Logo
+Penguin has a penguin. Conveniently, my usual avatar is also a bird - a cartoon sketch I did of our pet chicken, Pirate Chicken. This also reflects my personality (animals etc). To turn it into a logo I created paths in Photoshop and stroked them with a tapered brush. Then I gave it a black circle background.
+![Pirate Chicken sketch](https://github.com/Simbidion/portfolio-website/blob/master/assets/img/piratechicken-sketch.jpg?raw=true "Pirate Chicken sketch")
+![Pirate Chicken stroke](https://github.com/Simbidion/portfolio-website/blob/master/assets/img/piratechicken-stroke.png?raw=true "Pirate Chicken stroke")
+![Pirate Chicken logo](https://github.com/Simbidion/portfolio-website/blob/master/assets/img/pirateroundtrans.png?raw=true "Pirate Chicken logo")
+
+In keeping with the minimalist theme, the logo is only used one, in the footer.
 
 ### Views
 Pages should always load with the main header and the intro fitted to the screen.

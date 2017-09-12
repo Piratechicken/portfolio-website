@@ -296,7 +296,14 @@ h1::after {
    height: 55px;
    width: auto;
    opacity: 0.88;
+   border-radius: 50%;
+   transition: all 0.4s;
  }
+ footer img:hover {
+  transform: translate(0px,-5px);
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+}
+
 
  /* FORM STYLES */
 
@@ -313,13 +320,14 @@ h1::after {
    font-style: normal;
    font-weight: normal;
    font-size: 16px;
-   letter-spacing: 1px;
+   letter-spacing: 2px;
    color: #4B4B4B;
    width: 80vw;
    max-width: 600px;
    box-sizing: border-box;
-   border: 1px solid #999;
-   border-radius: 2px;
+   border: 1px solid #528F7D;
+   background: #BACDA8;
+   border-radius: 4px;
  }
 
  input:focus, textarea:focus {
@@ -345,7 +353,7 @@ h1::after {
  color: #222222;
  letter-spacing: 2px;
  padding: 5px;
- border-radius: 2px;
+ border-radius: 4px;
  border: none;
  transition: 0.2s;
  }

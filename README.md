@@ -1,5 +1,5 @@
 # Simon's portfolio website
-- Live on [Netlify] at (https://www.piratechicken.com/)
+- Live at https://www.piratechicken.com/
 
 ## Inspiration
  - [Pinterest board](https://au.pinterest.com/simbidion/personal-website/)

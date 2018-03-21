@@ -157,10 +157,10 @@ h1::after {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  font-size: 18px;
+  font-size: 12px;
   color: #222222;
   letter-spacing: 1px;
-  padding: 10px;
+  padding: 0;
   transition: 0.2s;
 }
 .nav-bar p:hover, .nav-bar a:hover {
@@ -354,13 +354,15 @@ h1::after {
    width: 80vw;
    max-width: 600px;
    box-sizing: border-box;
-   border: 1px solid #528F7D;
-   background: #BACDA8;
+   /* border: 1px solid #528F7D; */
+   /* background: #BACDA8; */
+   border: 1px solid #C3994A;
+   background: #F2E4BD;
    border-radius: 4px;
  }
 
  input:focus, textarea:focus {
-   border: 2px #528F7D solid;
+   border-width: 2px;
    outline: none;
  }
 
@@ -371,7 +373,8 @@ h1::after {
  }
 
  button {
- background: #528F7D;
+ /* background: #528F7D; */
+ background: #E1B056;
  width: 80vw;
  max-width: 600px;
  font-family: 'Raleway', sans-serif;
@@ -387,7 +390,8 @@ h1::after {
  transition: 0.2s;
  }
  button:hover {
-   background: #5F9F8C;
+   /* background: #5F9F8C; */
+   background: #ECBE69;
  }
 
 /*  =MEDIA QUERIES=  */

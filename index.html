@@ -57,12 +57,12 @@
     <div class="big-header" id="big-header">
         <div class="h1-container" id="h1-container"><a href="#"><h1 id="h1">SIMON DWYER</h1></a>
             <!-- Top nav bar only shows on wider screens -->
-            <div class="nav-bar" id="bigscreen-nav">
+            <nav id="bigscreen-nav">
                 <p><a href="#about">ABOUT</a></p>
                 <p><a href="#skills">SKILLS</a></p>
                 <p><a href="#projects">PROJECTS</a></p>
                 <p><a href="#contact">CONTACT</a></p>
-            </div>
+            </nav>
         </div>
     </div>
 
@@ -122,9 +122,12 @@
             <div class="item-inner-container">
                 <h3>CONTACT</h3>
 
-                <form name="contact-form" action="/success.html" netlify>
+                <form name="contact-form" netlify-honeypot="bot-field" method="POST" action="/success.html" netlify>
                     <div>
                         <input type="text" id="name" name="user_name" placeholder="Name*" required>
+                    </div>
+                    <div class="hidden">
+                        <label>Don’t fill this out if you're human: <input name="bot-field"></label>
                     </div>
                     <div>
                         <input type="email" id="mail" name="email" placeholder="Email*" required>
@@ -149,12 +152,12 @@
     </div> <!-- End of main container -->
 
     <!-- Nav bar on mobile only -->
-    <div class="nav-bar" id="mobile-nav">
+    <nav id="mobile-nav">
         <p><a href="#about">ABOUT</a></p>
         <p><a href="#skills">SKILLS</a></p>
         <p><a href="#projects">PROJECTS</a></p>
         <p><a href="#contact">CONTACT</a></p>
-    </div>
+    </nav>
 
 
 
